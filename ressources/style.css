@@ -1,0 +1,37 @@
+header
+{
+    background-image: url(/images/logo3.jpg);
+    background-position: center;
+    height: 80vh;
+}
+
+.actu i
+{
+    font-size: 50px;
+}
+
+
+/* ANNONCE */
+.card .card-body .message {
+    padding-left: 80px;
+    
+    &::after {
+      clear: both;
+    }
+  }
+  
+  .card .card-body .actions {
+    margin-top: 5px;
+  }
+
+/* FOOTER */
+footer
+{
+    background-color: rgb(80, 63, 63);
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+}
+
